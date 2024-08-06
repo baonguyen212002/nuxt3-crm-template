@@ -11,6 +11,11 @@ const routes: NuxtPage[] = [
     path: '/',
     file: resolve(__dirname, 'pages/index.vue')
   },
+  {
+    name: 'attendance',
+    path: '/employee-attendance',
+    file: resolve(__dirname, 'pages/attendance.vue')
+  },
 ]
 
 export default routes
