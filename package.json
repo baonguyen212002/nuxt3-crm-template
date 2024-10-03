@@ -10,14 +10,25 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@ant-design-vue/nuxt": "^1.4.2",
+    "@ant-design/cssinjs": "^1.21.0",
+    "@ant-design/icons-vue": "^7.0.1",
+    "@heroicons/vue": "^2.1.5",
     "@tailwindcss/forms": "^0.5.7",
+    "ant-design-vue": "^4.2.3",
     "flowbite": "^2.4.1",
     "nuxt": "^3.12.4",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.4",
+    "unplugin-vue-components": "^0.27.3",
     "vue": "latest"
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "nuxt-headlessui": "^1.2.0",
     "tailwindcss": "^3.4.7"
   }
 }
